@@ -1,9 +1,9 @@
 
 -- 1. Calculate Simple Interest.
 DECLARE
-    p NUMBER := 5000;  -- principal
-    r NUMBER := 4;     -- rate of interest
-    t NUMBER := 3;     -- time in years
+    p NUMBER := 5000; 
+    r NUMBER := 4;  
+    t NUMBER := 3;     
     si NUMBER;
 BEGIN
     si := (p * r * t) / 100;
